@@ -33,6 +33,10 @@ module: {
         test: /\.txt$/, // Add rule to handle .txt files
         use: 'raw-loader',
       },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
     ],
   },  resolve: {
   extensions: ['.js', '.jsx'], // Resolve .jsx extension
