@@ -1,0 +1,20 @@
+/* src/components/common/Button/Button.css */
+.button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Example blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.button:disabled{
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}

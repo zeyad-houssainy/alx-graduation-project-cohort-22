@@ -1,0 +1,17 @@
+/* src/components/Footer/Newsletter/Newsletter.css */
+.newsletter input[type="email"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #555;
+    background-color: #444;
+    color: white;
+}
+
+.newsletter button {
+    background-color: #555;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}

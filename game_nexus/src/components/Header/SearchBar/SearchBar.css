@@ -1,0 +1,20 @@
+/* src/components/Header/Navbar/SearchBar.css */
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px; /* Rounded left corners */
+    border-right: none;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #555;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 0 4px 4px 0; /* Rounded right corners */
+    cursor: pointer;
+}

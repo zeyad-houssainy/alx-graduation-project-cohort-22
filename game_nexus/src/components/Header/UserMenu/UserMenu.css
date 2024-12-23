@@ -1,0 +1,11 @@
+/* src/components/Header/UserMenu/UserMenu.css */
+.user-menu {
+    display: flex;
+    align-items: center;
+}
+
+.user-link {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}

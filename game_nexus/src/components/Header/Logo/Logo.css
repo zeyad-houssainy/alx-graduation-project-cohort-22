@@ -1,0 +1,10 @@
+/* src/components/Header/Logo/Logo.css */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo-link{
+    text-decoration: none;
+    color: white;
+}
