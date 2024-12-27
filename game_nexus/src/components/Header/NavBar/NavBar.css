@@ -1,4 +1,8 @@
 .navbar{
+    padding: 0;
     background-color: rgb(231, 231, 231);
-    border: 1px dashed blue
+    border: 1px dashed blue;
+    /* display: inline-block; */
+    width: auto;
+    /* margin: 50px; */
 }

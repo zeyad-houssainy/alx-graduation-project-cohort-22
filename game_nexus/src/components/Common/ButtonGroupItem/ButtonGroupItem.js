@@ -9,7 +9,7 @@ function ButtonGroupItem({items}) {
       sx={{
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'center',
+        alignItems: 'left',
         '& > *': {
           m: 1,
         },

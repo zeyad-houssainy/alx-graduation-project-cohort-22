@@ -8,6 +8,7 @@ import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import ProductList from '../Pages/ProductList/ProductList';
 import NoPage from '../Pages/NoPage/NoPage';
+import Home from '../Pages/Home/Home';
 
 // Font import
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -25,8 +26,9 @@ class App extends React.Component {
         <BrowserRouter>
           <Header />
           <Routes>
-            <Route path='/' element={<NoPage />} />
-            <Route path="/products" element={<ProductList />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/ProductList" element={<ProductList />} />
+            <Route path='/NoPage' element={<NoPage />} />
           </Routes>
           <Footer />
         </BrowserRouter>

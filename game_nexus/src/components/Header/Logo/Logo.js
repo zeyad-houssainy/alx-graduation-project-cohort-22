@@ -1,11 +1,11 @@
-// src/components/Header/Logo/Logo.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Logo.css';
 
 const Logo = () => {
   return (
     <div className="logo">
-      <a href="/" className="logo-link">GameVerse</a> {/* Link to homepage */}
+      <Link to="/" className="logo-link">GameVerse</Link>
     </div>
   );
 };

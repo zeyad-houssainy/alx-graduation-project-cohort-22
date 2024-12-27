@@ -2,9 +2,7 @@
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
+  display: inline-block;
+  border: 1px dotted green
 }
 
-.logo-link{
-    text-decoration: none;
-    color: white;
-}

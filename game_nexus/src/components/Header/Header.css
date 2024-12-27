@@ -1,3 +1,8 @@
 .header{
-    border: 1px solid red
+    border: 1px solid red;
+    background-color: rgb(231, 231, 231);
+    /* display: inline-block; */
+    width: 100%;
+    display: flex;
+
 }

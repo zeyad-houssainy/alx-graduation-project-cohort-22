@@ -8,6 +8,7 @@ import './Header.css';
 const Header = () => {
   return (
     <header className="header">
+      <Logo />
       <div className="header-container">
         {/* <Logo /> */}
         <Navbar />
