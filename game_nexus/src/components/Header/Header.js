@@ -9,9 +9,9 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-container">
-        <Logo />
+        {/* <Logo /> */}
         <Navbar />
-        <UserMenu />
+        {/* <UserMenu /> */}
       </div>
     </header>
   );
