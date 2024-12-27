@@ -10,6 +10,7 @@ const ProductList = () => {
   const [products, setProducts] = useState([])
 
   useEffect(() => {
+    // const url = "https://simpleapistore.vercel.app/api/products/1"
     const url = "https://fakestoreapi.com/products"
     fetch(url)
               .then(res=>res.json())

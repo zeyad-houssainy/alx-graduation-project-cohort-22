@@ -1,5 +1,6 @@
 import React from 'react';
 import './ProductCard.css';
+import PropTypes from 'prop-types';
 //MaterialUI
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -32,5 +33,14 @@ const ProductCard = ({ product }) => {
         </CardActionArea>
       </Card>
   );};
+
+ProductCard.propTypes = {
+  product: PropTypes.shape({
+    image: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string,
+    price: PropTypes.number.isRequired,
+  }).isRequired,
+};
 
 export default ProductCard;
